@@ -1,0 +1,14 @@
+{
+  "name": "gabriel-portifolio",
+  "version": "1.0.0",
+  "description": "Primeira versão do meu portifólio em desenvolvimento, o desing já está todo pronto, agora e codar.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Nogueira",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.2"
+  }
+}
