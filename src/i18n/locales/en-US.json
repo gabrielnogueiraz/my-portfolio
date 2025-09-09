@@ -46,9 +46,9 @@
           "support": "IT Support Analyst"
         },
         "descriptions": {
-          "junior": "Leading frontend development for enterprise applications, mentoring junior developers and implementing modern React patterns.",
-          "trainee": "Developed end-to-end solutions for a fast-growing startup, working across the entire technology stack.",
-          "support": "Created responsive web applications for various clients, focusing on user experience and performance."
+          "junior": "Quickly promoted after the internship due to high-impact deliveries in the company's operations. Currently working on the front line of projects, participating in strategic meetings, solution planning and development of critical systems focused on performance and accounting automation. Among the main results, the corporate panel stands out, which reduced by at least 50% the time spent on manual processes in the corporate sector, through RPAs and automations that eliminated dependence on portals such as e-CAC and city halls.",
+          "trainee": "Internship in developing accounting automations, creating integrations and internal systems to optimize company processes. Among the deliverables, the certificates panel stands out, which brought total control over more than 500 documents and increased productivity by +80% for the responsible team.",
+          "support": "Worked as an outsourced IT support analyst for Caixa Econômica Federal, handling internal calls from Cercred and external calls from Caixa throughout Brazil. In addition to help desk activities, I developed proprietary solutions that optimized the team's work by 100%: a web Help Desk system (authorized by Caixa) that replaced manual control in Excel spreadsheets and an automatic email signature generator, eliminating the need for manual creation in Photoshop."
         }
       },
       "stack": {

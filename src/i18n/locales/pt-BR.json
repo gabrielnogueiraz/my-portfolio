@@ -46,9 +46,9 @@
           "support": "Analista de Suporte de TI"
         },
         "descriptions": {
-          "junior": "Liderando o desenvolvimento frontend para aplicações enterprise, mentorando desenvolvedores júnior e implementando padrões modernos de React.",
-          "trainee": "Desenvolveu soluções end-to-end para uma startup em crescimento rápido, trabalhando em toda a stack tecnológica.",
-          "support": "Criou aplicações web responsivas para diversos clientes, focando na experiência do usuário e performance."
+          "junior": "Efetivado rapidamente após o estágio devido às entregas de alto impacto no operacional da empresa. Atualmente atuo na linha de frente dos projetos, participando de reuniões estratégicas, planejamento de soluções e desenvolvimento de sistemas críticos com foco em performance e automação contábil. Entre os principais resultados, destaque para o painel societário, que reduziu em pelo menos 50% o tempo gasto em processos manuais do setor societário, por meio de RPA's e automações que eliminaram a dependência de portais como e-CAC e prefeituras.",
+          "trainee": "Estágio em desenvolvimento de automações contábeis, criando integrações e sistemas internos para otimizar processos da empresa. Entre as entregas, destaque para o painel de certificados, que trouxe controle total sobre mais de 500 documentos e aumentou em +80% a produtividade da equipe responsável.",
+          "support": "Atuei como analista de suporte de TI terceirizado da Caixa Econômica Federal, atendendo chamados internos da Cercred e externos da Caixa em todo o Brasil. Além das atividades de help desk, desenvolvi soluções próprias que otimizaram em 100% o trabalho da equipe: um sistema web de Help Desk (autorizado pela Caixa) que substituiu o controle manual em planilhas de Excel e um gerador automático de assinaturas de e-mail, eliminando a necessidade de criação manual no Photoshop."
         }
       },
       "stack": {
