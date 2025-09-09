@@ -1,0 +1,235 @@
+{
+  "navigation": {
+    "title": "Navigation",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Gabriel Nogueira",
+    "title": "Full Stack Developer",
+    "description": "I like fast code, clean interfaces and simple solutions for complex problems. I always seek to make processes more efficient and automatic.",
+    "cta": "View Projects",
+    "contact": "Get in Touch"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Developer passionate about technology and innovation",
+    "description": "I'm a full stack developer with over 3 years of experience, specialized in creating digital solutions that make a difference. My passion is transforming complex ideas into simple and efficient products.",
+    "experience": "Years of Experience",
+    "projects": "Completed Projects",
+    "technologies": "Mastered Technologies",
+    "skills": {
+      "title": "Technical Skills",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Tools",
+      "languages": "Languages"
+    },
+    "page": {
+      "title": "About",
+      "introduction": {
+        "title": "Introduction",
+        "greeting": "I'm Gabriel",
+        "paragraph1": "I like fast code, clean interfaces and solving problems that seem complicated in a simple way. I constantly think about startup ideas and spend a good part of my time thinking about how to make processes more efficient, automatic and intuitive.",
+        "paragraph2": "My specialty is creating ultra-performant backends, capable of running with minimal memory consumption under high load. On the frontend layer, I seek to build clean and consistent interfaces, always guided by minimalist design principles. My purpose is to unite technical performance with a clear and fluid user experience.",
+        "paragraph3": "I learn by building, improve by iterating, and believe that the best version of any idea is born after many attempts. My goal is to create products that not only work well, but also inspire confidence and curiosity in those who use them.",
+        "paragraph4": "I'm trying to do something big. Even if it takes a hundred iterations."
+      },
+      "career": {
+        "title": "Career",
+        "positions": {
+          "junior": "Junior FullStack Developer",
+          "trainee": "Trainee Software Developer",
+          "support": "IT Support Analyst"
+        },
+        "descriptions": {
+          "junior": "Leading frontend development for enterprise applications, mentoring junior developers and implementing modern React patterns.",
+          "trainee": "Developed end-to-end solutions for a fast-growing startup, working across the entire technology stack.",
+          "support": "Created responsive web applications for various clients, focusing on user experience and performance."
+        }
+      },
+      "stack": {
+        "title": "Tech Stack",
+        "categories": {
+          "frontend": "Frontend",
+          "backend": "Backend",
+          "cloud": "Cloud & DevOps",
+          "tools": "Tools"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Some of my most recent work",
+    "all": "All",
+    "featured": "Featured",
+    "viewSite": "View Site",
+    "viewCode": "Code",
+    "viewProject": "View Project",
+    "viewDocumentation": "View Documentation",
+    "year": "Year",
+    "category": "Category",
+    "technologies": "Technologies",
+    "categories": {
+      "productivity": "Productivity",
+      "financial": "Financial",
+      "api": "API",
+      "ecommerce": "E-commerce",
+      "web": "Web",
+      "tools": "Tools"
+    },
+    "page": {
+      "title": "Projects",
+      "subtitle": "Some of my most recent work",
+      "all": "All",
+      "featured": "Featured",
+      "viewSite": "View Site",
+      "viewCode": "Code",
+      "viewProject": "View Project",
+      "viewDocumentation": "View Documentation",
+      "year": "Year",
+      "category": "Category",
+      "technologies": "Technologies",
+      "categories": {
+        "productivity": "Productivity",
+        "financial": "Financial",
+        "api": "API",
+        "ecommerce": "E-commerce",
+        "web": "Web",
+        "tools": "Tools"
+      },
+      "projects": {
+        "toivo": {
+          "title": "Toivo",
+          "description": "Revolutionary productivity app that combines Kanban, Pomodoro and a personalized AI as your personal assistant. Transform your productivity with focus, organization and artificial intelligence."
+        },
+        "saldomais": {
+          "title": "Saldo+",
+          "description": "Personal assistant for income and expense control for self-employed workers. Record earnings, track progress and get intelligent insights with AI to maximize your income."
+        },
+        "brasilIoApi": {
+          "title": "Brasil.io Golang REST API",
+          "description": "Ultra-performant Go API that consumes public government spending data. One of Brazil's fastest APIs with 117.38 MB/s throughput and 8.74ms response time."
+        },
+        "echoNotes": {
+          "title": "Echo Notes",
+          "description": "Intelligent note-taking system that automatically converts audio to text. Record your notes by speaking and they are transcribed instantly using AI. Modern interface with advanced search and automatic organization."
+        },
+        "menuOnline": {
+          "title": "Menu Online",
+          "description": "Complete online menu system for snack bars. Customers select items, choose delivery or pickup, automatically calculate fees and finalize orders via WhatsApp with all detailed information."
+        },
+        "qrCodeGenerator": {
+          "title": "QRCode Generator",
+          "description": "Universal QR Code generator that creates codes for any type of content. Intuitive interface with size, color customization options and direct download of the generated code."
+        },
+        "primeFlix": {
+          "title": "PrimeFlix",
+          "description": "Movie platform that consumes The Movie DB API to display updated releases. Users can rate movies, add to favorites, watch trailers and read complete synopses."
+        },
+        "easyFinance": {
+          "title": "Easy Finance",
+          "description": "Web application for financial control optimized for mobile devices. Intuitive interface designed to manage expenses and income easily on your phone."
+        },
+        "donutAnimation": {
+          "title": "Donut Animation",
+          "description": "Interactive donut animation that rotates 360° continuously. Created with pure CSS and JavaScript for speed and direction control of rotation."
+        },
+        "folderOrganizer": {
+          "title": "Folder Organizer",
+          "description": "Python script to automatically organize files by extension. Identifies file types and moves them to corresponding subfolders, saving time in directory organization."
+        },
+        "crudJs": {
+          "title": "CRUD JavaScript",
+          "description": "Simple customer registration system developed with HTML, CSS and pure JavaScript. Clean and functional interface for managing customer data with create, read, update and delete operations."
+        },
+        "financeControl": {
+          "title": "Finance Control",
+          "description": "Financial control system for managing income and expenses. Intuitive interface with financial summary, transaction registration and real-time balance control."
+        },
+        "calcJs": {
+          "title": "Calc.Js",
+          "description": "Modern web calculator with light and dark theme. Developed with pure JavaScript, offers basic operations, parentheses, modulo and result copy functionality."
+        },
+        "taskMore": {
+          "title": "Task More",
+          "description": "Innovative task manager with public task functionality. Built with Next.js 13, Firebase Firestore and NextAuth.js. Users can make their tasks public for sharing with other users."
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's work together!",
+    "description": "Have a project in mind? Let's talk about how I can help transform your idea into reality.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Error sending message. Please try again."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location"
+    },
+    "page": {
+      "title": "Contact",
+      "form": {
+        "title": "Send a message",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "your@email.com",
+        "subjectPlaceholder": "Message subject",
+        "messagePlaceholder": "Your message here...",
+        "send": "Send message",
+        "sending": "Sending...",
+        "success": {
+          "title": "Message sent!",
+          "message": "Thank you for contacting me. I'll get back to you soon."
+        },
+        "error": "Unexpected error sending email. Please try again."
+      },
+      "social": {
+        "title": "Social media",
+        "follow": "Follow me on"
+      },
+      "email": {
+        "title": "Direct email",
+        "description": "Prefer to send a direct email? Use the address below:",
+        "address": "gabriel.nogueira00810@gmail.com"
+      }
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "built": "Built with",
+    "by": "by Gabriel Nogueira"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "open": "Open",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "view": "View",
+    "download": "Download",
+    "backToTop": "Back to Top"
+  }
+}

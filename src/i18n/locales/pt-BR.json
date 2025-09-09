@@ -1,0 +1,235 @@
+{
+  "navigation": {
+    "title": "Navegação",
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Gabriel Nogueira",
+    "title": "Desenvolvedor Full Stack",
+    "description": "Gosto de código rápido, interfaces limpas e soluções simples para problemas complexos. Sempre busco tornar processos mais eficientes e automáticos.",
+    "cta": "Ver Projetos",
+    "contact": "Entrar em Contato"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Desenvolvedor apaixonado por tecnologia e inovação",
+    "description": "Sou um desenvolvedor full stack com mais de 3 anos de experiência, especializado em criar soluções digitais que fazem a diferença. Minha paixão está em transformar ideias complexas em produtos simples e eficientes.",
+    "experience": "Anos de Experiência",
+    "projects": "Projetos Concluídos",
+    "technologies": "Tecnologias Dominadas",
+    "skills": {
+      "title": "Habilidades Técnicas",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "tools": "Ferramentas",
+      "languages": "Linguagens"
+    },
+    "page": {
+      "title": "Sobre",
+      "introduction": {
+        "title": "Introdução",
+        "greeting": "Eu sou o Gabriel",
+        "paragraph1": "Gosto de código rápido, interfaces limpas e de resolver problemas que parecem complicados de forma simples. Penso constantemente em ideias de startup e passo boa parte do tempo pensando em como tornar processos mais eficientes, automáticos e intuitivos.",
+        "paragraph2": "Minha especialidade é criar backends ultra performáticos, capazes de rodar com consumo mínimo de memória sob alta carga. Na camada de frontend, busco construir interfaces limpas e consistentes, sempre guiadas por princípios de design minimalista. Meu propósito é unir performance técnica com uma experiência de uso clara e fluida.",
+        "paragraph3": "Aprendo construindo, melhoro iterando, e acredito que a melhor versão de qualquer ideia nasce depois de muitas tentativas. Meu objetivo é criar produtos que não só funcionem bem, mas que também inspiram confiança e curiosidade em quem usa.",
+        "paragraph4": "Estou tentando fazer algo grande. Mesmo que leve cem iterações."
+      },
+      "career": {
+        "title": "Carreira",
+        "positions": {
+          "junior": "Desenvolvedor FullStack Júnior",
+          "trainee": "Desenvolvedor de Software Trainee",
+          "support": "Analista de Suporte de TI"
+        },
+        "descriptions": {
+          "junior": "Liderando o desenvolvimento frontend para aplicações enterprise, mentorando desenvolvedores júnior e implementando padrões modernos de React.",
+          "trainee": "Desenvolveu soluções end-to-end para uma startup em crescimento rápido, trabalhando em toda a stack tecnológica.",
+          "support": "Criou aplicações web responsivas para diversos clientes, focando na experiência do usuário e performance."
+        }
+      },
+      "stack": {
+        "title": "Stack Tecnológica",
+        "categories": {
+          "frontend": "Frontend",
+          "backend": "Backend",
+          "cloud": "Cloud & DevOps",
+          "tools": "Ferramentas"
+        }
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Alguns dos meus trabalhos mais recentes",
+    "all": "Todos",
+    "featured": "Destaque",
+    "viewSite": "Ver Site",
+    "viewCode": "Código",
+    "viewProject": "Ver Projeto",
+    "viewDocumentation": "Ver Documentação",
+    "year": "Ano",
+    "category": "Categoria",
+    "technologies": "Tecnologias",
+    "categories": {
+      "productivity": "Produtividade",
+      "financial": "Financeiro",
+      "api": "API",
+      "ecommerce": "E-commerce",
+      "web": "Web",
+      "tools": "Ferramentas"
+    },
+    "page": {
+      "title": "Projetos",
+      "subtitle": "Alguns dos meus trabalhos mais recentes",
+      "all": "Todos",
+      "featured": "Destaque",
+      "viewSite": "Ver Site",
+      "viewCode": "Código",
+      "viewProject": "Ver Projeto",
+      "viewDocumentation": "Ver Documentação",
+      "year": "Ano",
+      "category": "Categoria",
+      "technologies": "Tecnologias",
+      "categories": {
+        "productivity": "Produtividade",
+        "financial": "Financeiro",
+        "api": "API",
+        "ecommerce": "E-commerce",
+        "web": "Web",
+        "tools": "Ferramentas"
+      },
+      "projects": {
+        "toivo": {
+          "title": "Toivo",
+          "description": "Revolucionário app de produtividade que une Kanban, Pomodoro e uma IA personalizada como sua assistente pessoal. Transforme sua produtividade com foco, organização e inteligência artificial."
+        },
+        "saldomais": {
+          "title": "Saldo+",
+          "description": "Assistente pessoal de controle de ganhos e despesas para trabalhadores autônomos. Registre ganhos, acompanhe progresso e tenha insights inteligentes com IA para maximizar sua renda."
+        },
+        "brasilIoApi": {
+          "title": "Brasil.io Golang REST API",
+          "description": "API ultra-performática em Go que consome dados públicos de gastos governamentais. Uma das APIs mais rápidas do Brasil com 117.38 MB/s de throughput e 8.74ms de resposta."
+        },
+        "echoNotes": {
+          "title": "Echo Notes",
+          "description": "Sistema de anotações inteligente que converte áudio em texto automaticamente. Grave suas notas falando e elas são transcritas instantaneamente usando IA. Interface moderna com busca avançada e organização automática."
+        },
+        "menuOnline": {
+          "title": "Menu Online",
+          "description": "Sistema completo de cardápio online para lanchonetes. Clientes selecionam itens, escolhem entrega ou retirada, calculam taxas automaticamente e finalizam pedidos via WhatsApp com todas as informações detalhadas."
+        },
+        "qrCodeGenerator": {
+          "title": "QRCode Generator",
+          "description": "Gerador universal de QR Code que cria códigos para qualquer tipo de conteúdo. Interface intuitiva com opções de personalização de tamanho, cores e download direto do código gerado."
+        },
+        "primeFlix": {
+          "title": "PrimeFlix",
+          "description": "Plataforma de filmes que consome a API do The Movie DB para exibir lançamentos atualizados. Usuários podem avaliar filmes, adicionar aos favoritos, assistir trailers e ler sinopses completas."
+        },
+        "easyFinance": {
+          "title": "Easy Finance",
+          "description": "Aplicativo web de controle financeiro otimizado para dispositivos móveis. Interface intuitiva pensada para gerenciar gastos e receitas com facilidade no celular."
+        },
+        "donutAnimation": {
+          "title": "Donut Animation",
+          "description": "Animação interativa de rosquinha que gira 360° continuamente. Criada com CSS puro e JavaScript para controle de velocidade e direção da rotação."
+        },
+        "folderOrganizer": {
+          "title": "Folder Organizer",
+          "description": "Script Python para organizar arquivos automaticamente por extensão. Identifica tipos de arquivo e os move para subpastas correspondentes, economizando tempo na organização de diretórios."
+        },
+        "crudJs": {
+          "title": "CRUD JavaScript",
+          "description": "Sistema simples de cadastro de clientes desenvolvido com HTML, CSS e JavaScript puro. Interface limpa e funcional para gerenciar dados de clientes com operações de criar, ler, atualizar e deletar."
+        },
+        "financeControl": {
+          "title": "Finance Control",
+          "description": "Sistema de controle financeiro para gerenciamento de ganhos e despesas. Interface intuitiva com resumo financeiro, cadastro de transações e controle de saldo em tempo real."
+        },
+        "calcJs": {
+          "title": "Calc.Js",
+          "description": "Calculadora web moderna com tema claro e escuro. Desenvolvida com JavaScript puro, oferece operações básicas, parênteses, módulo e funcionalidade de cópia de resultados."
+        },
+        "taskMore": {
+          "title": "Task More",
+          "description": "Gerenciador de tarefas inovador com funcionalidade de tarefas públicas. Desenvolvido com Next.js 13, Firebase Firestore e NextAuth.js. Usuários podem tornar suas tarefas públicas para compartilhamento com outros usuários."
+        }
+      }
+    }
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Vamos trabalhar juntos!",
+    "description": "Tem um projeto em mente? Vamos conversar sobre como posso ajudar a transformar sua ideia em realidade.",
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso!",
+      "error": "Erro ao enviar mensagem. Tente novamente."
+    },
+    "info": {
+      "title": "Informações de Contato",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "location": "Localização"
+    },
+    "page": {
+      "title": "Contato",
+      "form": {
+        "title": "Envie uma mensagem",
+        "name": "Nome",
+        "email": "Email",
+        "subject": "Assunto",
+        "message": "Mensagem",
+        "namePlaceholder": "Seu nome",
+        "emailPlaceholder": "seu@email.com",
+        "subjectPlaceholder": "Assunto da mensagem",
+        "messagePlaceholder": "Sua mensagem aqui...",
+        "send": "Enviar mensagem",
+        "sending": "Enviando...",
+        "success": {
+          "title": "Mensagem enviada!",
+          "message": "Obrigado pelo contato. Responderei em breve."
+        },
+        "error": "Erro inesperado ao enviar email. Tente novamente."
+      },
+      "social": {
+        "title": "Redes sociais",
+        "follow": "Me siga no"
+      },
+      "email": {
+        "title": "Email direto",
+        "description": "Prefere enviar um email direto? Use o endereço abaixo:",
+        "address": "gabriel.nogueira00810@gmail.com"
+      }
+    }
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados",
+    "built": "Desenvolvido com",
+    "by": "por Gabriel Nogueira"
+  },
+  "common": {
+    "loading": "Carregando...",
+    "error": "Erro",
+    "success": "Sucesso",
+    "close": "Fechar",
+    "open": "Abrir",
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "edit": "Editar",
+    "delete": "Excluir",
+    "view": "Visualizar",
+    "download": "Baixar",
+    "backToTop": "Voltar ao Topo"
+  }
+}
