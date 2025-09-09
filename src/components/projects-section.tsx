@@ -301,8 +301,8 @@ export function ProjectsSection() {
       : projects.filter((project) => project.year === selectedYear);
 
   return (
-    <section id="projects" className="pt-24 pb-20 bg-muted/30">
-      <div className="container mx-auto px-6">
+    <section id="projects" className="pt-20 md:pt-24 pb-16 md:pb-20 bg-muted/30">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -311,12 +311,12 @@ export function ProjectsSection() {
           className="max-w-7xl mx-auto"
         >
           {/* Section Header */}
-          <div className="mb-16">
+          <div className="mb-12 md:mb-16">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-4xl md:text-5xl font-bold text-foreground mb-6"
+              className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-6"
             >
               {t('projects.page.title')}
             </motion.h1>
@@ -327,14 +327,14 @@ export function ProjectsSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex flex-wrap justify-center gap-3 mb-12"
+            className="flex flex-wrap justify-center gap-2 sm:gap-3 mb-8 md:mb-12 px-4"
           >
             {years.map((year) => (
               <Button
                 key={year}
                 variant={selectedYear === year ? "default" : "outline"}
                 onClick={() => setSelectedYear(year)}
-                className={`transition-all duration-200 ${
+                className={`transition-all duration-200 text-sm px-3 py-2 ${
                   selectedYear === year
                     ? "bg-accent text-white hover:bg-accent/90"
                     : "hover:bg-accent/10 hover:border-accent"
@@ -348,7 +348,7 @@ export function ProjectsSection() {
           {/* Projects Grid */}
           <motion.div
             layout
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
           >
             {filteredProjects.map((project, index) => (
               <motion.div

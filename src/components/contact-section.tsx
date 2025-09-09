@@ -93,8 +93,8 @@ export function ContactSection() {
   }
 
   return (
-    <section id="contact" className="pt-24 pb-20 bg-background">
-      <div className="container mx-auto px-6">
+    <section id="contact" className="pt-20 md:pt-24 pb-16 md:pb-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6">
         <motion.div
           ref={ref}
           initial={{ opacity: 0, y: 30 }}
@@ -107,12 +107,12 @@ export function ContactSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-4xl md:text-5xl font-bold text-foreground mb-16"
+            className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-12 md:mb-16"
           >
             {t('contact.page.title')}
           </motion.h1>
 
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
