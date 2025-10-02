@@ -158,6 +158,10 @@
         "taskMore": {
           "title": "Task More",
           "description": "Gerenciador de tarefas inovador com funcionalidade de tarefas públicas. Desenvolvido com Next.js 13, Firebase Firestore e NextAuth.js. Usuários podem tornar suas tarefas públicas para compartilhamento com outros usuários."
+        },
+        "freelCRM": {
+          "title": "FreelCRM",
+          "description": "CRM completo e moderno para freelancers gerenciarem clientes e propostas. Interface minimalista com dashboard em tempo real, quadro Kanban para propostas e métricas avançadas. Tudo sincronizado via Supabase Realtime para máxima eficiência."
         }
       }
     }

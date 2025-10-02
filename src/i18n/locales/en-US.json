@@ -158,6 +158,10 @@
         "taskMore": {
           "title": "Task More",
           "description": "Innovative task manager with public task functionality. Built with Next.js 13, Firebase Firestore and NextAuth.js. Users can make their tasks public for sharing with other users."
+        },
+        "freelCRM": {
+          "title": "FreelCRM",
+          "description": "Complete and modern CRM for freelancers to manage clients and proposals. Minimalist interface with real-time dashboard, Kanban board for proposals and advanced metrics. Everything synchronized via Supabase Realtime for maximum efficiency."
         }
       }
     }
