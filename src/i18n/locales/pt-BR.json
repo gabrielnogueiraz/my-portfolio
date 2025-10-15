@@ -162,6 +162,10 @@
         "freelCRM": {
           "title": "FreelCRM",
           "description": "CRM completo e moderno para freelancers gerenciarem clientes e propostas. Interface minimalista com dashboard em tempo real, quadro Kanban para propostas e métricas avançadas. Tudo sincronizado via Supabase Realtime para máxima eficiência."
+        },
+        "afilia": {
+          "title": "Afilia Analytics",
+          "description": "Plataforma completa para afiliados das principais plataformas (Shopee, Amazon, Mercado Livre). Upload de relatórios CSV/Excel, análise automática de vendas, controle de produtos que mais vendem, métricas de conversão e insights estratégicos para maximizar comissões."
         }
       }
     }
