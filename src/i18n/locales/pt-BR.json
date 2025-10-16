@@ -166,6 +166,10 @@
         "afilia": {
           "title": "Afilia Analytics",
           "description": "Plataforma completa para afiliados das principais plataformas (Shopee, Amazon, Mercado Livre). Upload de relatórios CSV/Excel, análise automática de vendas, controle de produtos que mais vendem, métricas de conversão e insights estratégicos para maximizar comissões."
+        },
+        "smartDocumentAnalyzer": {
+          "title": "Smart Document Analyzer",
+          "description": "Sistema inteligente para análise de artigos acadêmicos. Upload de PDFs, geração automática de resumos, identificação de tópicos e insights usando IA (Groq Cloud API + Llama 3). Backend escalável com NestJS e frontend moderno com Angular 18."
         }
       }
     }
