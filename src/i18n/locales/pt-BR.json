@@ -170,6 +170,10 @@
         "smartDocumentAnalyzer": {
           "title": "Smart Document Analyzer",
           "description": "Sistema inteligente para análise de artigos acadêmicos. Upload de PDFs, geração automática de resumos, identificação de tópicos e insights usando IA (Groq Cloud API + Llama 3). Backend escalável com NestJS e frontend moderno com Angular 18."
+        },
+        "domsapon": {
+          "title": "Dom Sapon",
+          "description": "Sistema completo de agendamento para barbearia com painéis cliente e admin. Interface ultra responsiva, agendamento instantâneo via Supabase Realtime, gerenciamento completo de serviços, clientes e receitas. Dashboard admin com métricas em tempo real, confirmação de agendamentos e controle total da barbearia."
         }
       }
     }

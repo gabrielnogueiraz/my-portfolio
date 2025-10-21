@@ -118,6 +118,30 @@ const getProjects = (t: any) => [
   },
   {
     id: 5,
+    title: t('projects.page.projects.domsapon.title'),
+    description: t('projects.page.projects.domsapon.description'),
+    image: "/assets/domsapon.png",
+    technologies: [
+      "Next.js 14",
+      "TypeScript",
+      "Supabase",
+      "Supabase Realtime",
+      "TailwindCSS",
+      "shadcn/ui",
+      "Radix UI",
+      "Lucide React",
+      "Responsive Design",
+    ],
+    category: t('projects.page.categories.web'),
+    year: "2025",
+    liveUrl: "https://domsapon.vercel.app/",
+    githubUrl: null,
+    featured: true,
+    icon: Calendar,
+    type: "product",
+  },
+  {
+    id: 6,
     title: t('projects.page.projects.smartDocumentAnalyzer.title'),
     description: t('projects.page.projects.smartDocumentAnalyzer.description'),
     image: "/assets/smartdocumentanalyzer.png",
@@ -142,7 +166,7 @@ const getProjects = (t: any) => [
     type: "product",
   },
   {
-    id: 6,
+    id: 7,
     title: t('projects.page.projects.echoNotes.title'),
     description: t('projects.page.projects.echoNotes.description'),
     image: "/assets/echonotess.png",
@@ -164,7 +188,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 7,
+    id: 8,
     title: t('projects.page.projects.taskMore.title'),
     description: t('projects.page.projects.taskMore.description'),
     image: "/assets/taskmore.png",
@@ -185,7 +209,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 8,
+    id: 9,
     title: t('projects.page.projects.menuOnline.title'),
     description: t('projects.page.projects.menuOnline.description'),
     image: "/assets/menuonline.png",
@@ -199,7 +223,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 9,
+    id: 10,
     title: t('projects.page.projects.qrCodeGenerator.title'),
     description: t('projects.page.projects.qrCodeGenerator.description'),
     image: "/assets/qrcode.png",
@@ -213,7 +237,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 10,
+    id: 11,
     title: t('projects.page.projects.primeFlix.title'),
     description: t('projects.page.projects.primeFlix.description'),
     image: "/assets/primeflix.png",
@@ -233,7 +257,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 11,
+    id: 12,
     title: t('projects.page.projects.easyFinance.title'),
     description: t('projects.page.projects.easyFinance.description'),
     image: "/assets/easyfinance.png",
@@ -247,7 +271,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 12,
+    id: 13,
     title: t('projects.page.projects.donutAnimation.title'),
     description: t('projects.page.projects.donutAnimation.description'),
     image: "/assets/donutanimation.png",
@@ -261,7 +285,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 13,
+    id: 14,
     title: t('projects.page.projects.folderOrganizer.title'),
     description: t('projects.page.projects.folderOrganizer.description'),
     image: null,
@@ -276,7 +300,7 @@ const getProjects = (t: any) => [
     hasDocumentation: true,
   },
   {
-    id: 14,
+    id: 15,
     title: t('projects.page.projects.crudJs.title'),
     description: t('projects.page.projects.crudJs.description'),
     image: "/assets/crudJs.png",
@@ -290,7 +314,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 15,
+    id: 16,
     title: t('projects.page.projects.financeControl.title'),
     description: t('projects.page.projects.financeControl.description'),
     image: "/assets/financeControl.png",
@@ -304,7 +328,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 16,
+    id: 17,
     title: t('projects.page.projects.calcJs.title'),
     description: t('projects.page.projects.calcJs.description'),
     image: "/assets/calcJs.png",
@@ -318,7 +342,7 @@ const getProjects = (t: any) => [
     type: "web",
   },
   {
-    id: 17,
+    id: 18,
     title: t('projects.page.projects.brasilIoApi.title'),
     description: t('projects.page.projects.brasilIoApi.description'),
     image: "/src/assets/golang-restAPI.md",

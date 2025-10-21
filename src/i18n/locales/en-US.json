@@ -170,6 +170,10 @@
         "smartDocumentAnalyzer": {
           "title": "Smart Document Analyzer",
           "description": "Intelligent system for academic article analysis. Upload PDFs, automatic summary generation, topic identification and insights using AI (Groq Cloud API + Llama 3). Scalable backend with NestJS and modern frontend with Angular 18."
+        },
+        "domsapon": {
+          "title": "Dom Sapon",
+          "description": "Complete barbershop scheduling system with client and admin panels. Ultra responsive interface, instant scheduling via Supabase Realtime, complete service management, clients and revenue tracking. Admin dashboard with real-time metrics, appointment confirmation and full barbershop control."
         }
       }
     }
