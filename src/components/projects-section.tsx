@@ -24,6 +24,7 @@ import {
   Mic,
   Utensils,
   Folder,
+  Newspaper,
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
@@ -363,6 +364,30 @@ const getProjects = (t: any) => [
     type: "api",
     hasDocumentation: true,
   },
+  {
+    id: 19,
+    title: t('projects.page.projects.asyncNewsScraper.title'),
+    description: t('projects.page.projects.asyncNewsScraper.description'),
+    image: null,
+    technologies: [
+      "Python 3.11+",
+      "FastAPI",
+      "SQLAlchemy",
+      "aiosqlite",
+      "aiohttp",
+      "BeautifulSoup4",
+      "Pydantic",
+      "Uvicorn",
+    ],
+    category: t('projects.page.categories.api'),
+    year: "2025",
+    liveUrl: null,
+    githubUrl: "https://github.com/gabrielnogueiraz/async-news-scrapper",
+    featured: false,
+    icon: Newspaper,
+    type: "api",
+    hasDocumentation: true,
+  },
 ];
 
 export function ProjectsSection() {
@@ -612,6 +637,8 @@ export function ProjectsSection() {
                     <div className="p-2 bg-accent/10 rounded-lg">
                       {selectedProject?.icon === Server ? (
                         <Server className="h-6 w-6 text-accent" />
+                      ) : selectedProject?.icon === Newspaper ? (
+                        <Newspaper className="h-6 w-6 text-accent" />
                       ) : (
                         <Folder className="h-6 w-6 text-accent" />
                       )}
@@ -860,6 +887,320 @@ docker build -t brasil-io-api .
 docker run -p 8080:8080 -e GO_ENV=production brasil-io-api`}
                             </pre>
                           </div>
+                        </section>
+                      </div>
+                    </div>
+                  ) : selectedProject?.title === "Async News Scraper" ? (
+                    <div>
+                      <div className="text-center mb-8">
+                        <h1 className="text-3xl font-bold mb-4">
+                          🚀 Async News Scraper
+                        </h1>
+                        <div className="flex flex-wrap justify-center gap-2 mb-6">
+                          <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium">
+                            Python 3.11+
+                          </span>
+                          <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-medium">
+                            FastAPI
+                          </span>
+                          <span className="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-medium">
+                            Async/Await
+                          </span>
+                          <span className="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-medium">
+                            Production Ready
+                          </span>
+                        </div>
+                        <p className="text-lg text-muted-foreground">
+                          Sistema assíncrono de alto desempenho para coleta e exposição de notícias do portal G1
+                        </p>
+                      </div>
+
+                      <div className="space-y-8">
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            📋 Descrição
+                          </h2>
+                          <p className="text-muted-foreground">
+                            O <strong>Async News Scraper</strong> é uma aplicação completa que realiza scraping de manchetes do G1 de forma assíncrona, armazena os dados em banco SQLite e expõe endpoints REST para consulta e execução de novas coletas. O projeto foi desenvolvido seguindo as melhores práticas de engenharia de software, com código limpo, tipagem estática completa e performance otimizada.
+                          </p>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            🛠️ Stack Tecnológica
+                          </h2>
+                          <ul className="space-y-2">
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>Python 3.11+</strong> - Linguagem base com recursos modernos</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>FastAPI</strong> - Framework web assíncrono de alta performance</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>SQLAlchemy 2.0</strong> - ORM com suporte async/await</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>aiosqlite</strong> - Driver SQLite assíncrono</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>aiohttp</strong> - Cliente HTTP assíncrono para scraping</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>BeautifulSoup4</strong> - Parser HTML para extração de dados</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>Pydantic</strong> - Validação de dados e serialização</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>Uvicorn</strong> - Servidor ASGI de produção</span>
+                            </li>
+                          </ul>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            🏗️ Arquitetura
+                          </h2>
+                          <div className="bg-muted p-4 rounded-lg">
+                            <pre className="text-sm overflow-x-auto">
+                              {`┌─────────────┐
+│   FastAPI   │  ← Camada de API (endpoints REST)
+└──────┬──────┘
+       │
+┌──────▼──────┐
+│  Scraper    │  ← Camada de serviço (lógica de negócio)
+└──────┬──────┘
+       │
+┌──────▼──────┐
+│ SQLAlchemy  │  ← Camada de persistência (ORM async)
+└──────┬──────┘
+       │
+┌──────▼──────┐
+│   SQLite    │  ← Banco de dados
+└─────────────┘`}
+                            </pre>
+                          </div>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            ✨ Características Principais
+                          </h2>
+                          <ul className="space-y-2">
+                            <li className="flex items-start space-x-2">
+                              <span className="text-green-500 mt-1">✓</span>
+                              <span>
+                                <strong>100% Assíncrono:</strong> Toda a stack utiliza async/await
+                              </span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-green-500 mt-1">✓</span>
+                              <span>
+                                <strong>Scraping Concorrente:</strong> Múltiplas requisições paralelas
+                              </span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-green-500 mt-1">✓</span>
+                              <span>
+                                <strong>Type Hints:</strong> Tipagem estática completa
+                              </span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-green-500 mt-1">✓</span>
+                              <span>
+                                <strong>Clean Code:</strong> Código autoexplicativo sem comentários desnecessários
+                              </span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-green-500 mt-1">✓</span>
+                              <span>
+                                <strong>Test Coverage:</strong> Suite completa de testes unitários e de integração
+                              </span>
+                            </li>
+                          </ul>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            📡 Endpoints da API
+                          </h2>
+                          <div className="space-y-4">
+                            <div className="border border-border rounded-lg p-4">
+                              <h3 className="font-bold mb-2">
+                                GET /
+                              </h3>
+                              <code className="bg-muted px-2 py-1 rounded text-sm">
+                                Informações básicas do serviço
+                              </code>
+                              <div className="mt-2 bg-muted p-3 rounded text-sm">
+                                <pre>{`{
+  "service": "Async News Scraper",
+  "status": "running",
+  "endpoints": ["/news", "/scrape"]
+}`}</pre>
+                              </div>
+                            </div>
+                            <div className="border border-border rounded-lg p-4">
+                              <h3 className="font-bold mb-2">
+                                GET /news
+                              </h3>
+                              <code className="bg-muted px-2 py-1 rounded text-sm">
+                                Retorna todas as notícias armazenadas
+                              </code>
+                              <p className="text-sm text-muted-foreground mt-2">
+                                Query Parameters: limit (default: 100), offset (default: 0)
+                              </p>
+                            </div>
+                            <div className="border border-border rounded-lg p-4">
+                              <h3 className="font-bold mb-2">
+                                POST /scrape
+                              </h3>
+                              <code className="bg-muted px-2 py-1 rounded text-sm">
+                                Executa uma nova coleta de notícias do G1
+                              </code>
+                              <div className="mt-2 bg-muted p-3 rounded text-sm">
+                                <pre>{`{
+  "success": true,
+  "news_added": 15,
+  "message": "Successfully scraped..."
+}`}</pre>
+                              </div>
+                            </div>
+                            <div className="border border-border rounded-lg p-4">
+                              <h3 className="font-bold mb-2">
+                                GET /health
+                              </h3>
+                              <code className="bg-muted px-2 py-1 rounded text-sm">
+                                Health check do serviço
+                              </code>
+                            </div>
+                          </div>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            🚀 Como Executar
+                          </h2>
+                          <div className="bg-muted p-4 rounded-lg">
+                            <pre className="text-sm overflow-x-auto">
+                              {`# 1. Clone o repositório
+git clone <repository-url>
+cd async-news-scrapper
+
+# 2. Crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# ou
+venv\\Scripts\\activate     # Windows
+
+# 3. Instale as dependências
+pip install -r requirements.txt
+
+# 4. Execute a aplicação
+python -m src.main
+
+# Ou diretamente com uvicorn:
+uvicorn src.api:app --reload --host 0.0.0.0 --port 8000`}
+                            </pre>
+                          </div>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            🧪 Executar Testes
+                          </h2>
+                          <div className="bg-muted p-4 rounded-lg">
+                            <pre className="text-sm overflow-x-auto">
+                              {`# Execute a suite completa de testes
+pytest
+
+# Com cobertura de código
+pytest --cov=src --cov-report=html
+
+# Testar apenas a API
+pytest tests/test_api.py
+
+# Testar apenas o scraper
+pytest tests/test_scraper.py`}
+                            </pre>
+                          </div>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            🐳 Execução com Docker
+                          </h2>
+                          <div className="bg-muted p-4 rounded-lg">
+                            <pre className="text-sm overflow-x-auto">
+                              {`# Build da imagem
+docker build -t async-news-scraper .
+
+# Execute o container
+docker run -d -p 8000:8000 --name news-scraper async-news-scraper
+
+# Acesse a aplicação
+http://localhost:8000`}
+                            </pre>
+                          </div>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            📁 Estrutura do Projeto
+                          </h2>
+                          <div className="bg-muted p-4 rounded-lg">
+                            <pre className="text-sm">
+                              {`async-news-scrapper/
+├── src/
+│   ├── api.py              # Endpoints FastAPI
+│   ├── db.py               # Configuração do banco async
+│   ├── main.py             # Entry point da aplicação
+│   ├── models.py           # Modelos SQLAlchemy
+│   ├── schemas.py          # Schemas Pydantic
+│   └── scrapper/
+│       ├── __init__.py
+│       └── news_scrapper.py # Lógica de scraping
+├── tests/
+│   ├── __init__.py
+│   ├── conftest.py         # Configuração de fixtures
+│   ├── test_api.py         # Testes dos endpoints
+│   ├── test_scraper.py     # Testes do scraper
+│   └── test_models.py      # Testes dos models
+├── requirements.txt        # Dependências Python
+├── pytest.ini             # Configuração do pytest
+├── Dockerfile             # Container Docker
+├── .env.example           # Variáveis de ambiente
+├── .gitignore
+└── README.md`}
+                            </pre>
+                          </div>
+                        </section>
+
+                        <section>
+                          <h2 className="text-2xl font-bold mb-4">
+                            🔍 Documentação Interativa
+                          </h2>
+                          <p className="text-muted-foreground mb-2">
+                            Acesse a documentação automática da API:
+                          </p>
+                          <ul className="space-y-2">
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>Swagger UI:</strong> http://localhost:8000/docs</span>
+                            </li>
+                            <li className="flex items-start space-x-2">
+                              <span className="text-blue-500 mt-1">•</span>
+                              <span><strong>ReDoc:</strong> http://localhost:8000/redoc</span>
+                            </li>
+                          </ul>
                         </section>
                       </div>
                     </div>
