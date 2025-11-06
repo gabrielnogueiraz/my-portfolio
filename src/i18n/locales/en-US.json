@@ -178,6 +178,10 @@
         "asyncNewsScraper": {
           "title": "Async News Scraper",
           "description": "High-performance asynchronous system for collecting and exposing news from G1 portal. Complete REST API built with FastAPI, async SQLAlchemy and BeautifulSoup4. Professional architecture with 100% asynchronous code, complete static typing and test suite."
+        },
+        "academiaBox": {
+          "title": "AcademiaBox - Gym Management",
+          "description": "Complete gym management system with member area and admin panel. Members can subscribe to plans, schedule training sessions with personal trainers, and track their progress. The admin manages members, contracts, appointments, and has a real-time business overview."
         }
       }
     }

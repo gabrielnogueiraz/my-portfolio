@@ -388,6 +388,30 @@ const getProjects = (t: any) => [
     type: "api",
     hasDocumentation: true,
   },
+  {
+    id: 20,
+    title: t('projects.page.projects.academiaBox.title'),
+    description: t('projects.page.projects.academiaBox.description'),
+    image: "/assets/academiabox.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "TailwindCSS",
+      "shadcn/ui",
+      "React Query",
+      "Zod",
+      "WhatsApp API"
+    ],
+    category: t('projects.page.categories.web'),
+    year: "2025",
+    liveUrl: "https://academiabox440.vercel.app/",
+    githubUrl: null,
+    featured: true,
+    icon: Calendar,
+    type: "saas",
+    hasDocumentation: false
+  },
 ];
 
 export function ProjectsSection() {
